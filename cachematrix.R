@@ -3,7 +3,6 @@
 ## this function will utilise a list of functions and is deisgned to capture/store a matrix
 ## in addition the function is designed to calculate/store a acached value of the ivnerse of the matrix.
 
-
 makeCacheMatrix <- function(x = matrix()) {
 
 
@@ -45,36 +44,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## cacheSolve returns the inverse of the matrix calculted by makeCacheMatrix
 ## function will check to see if the inverse is calculated and return it otherwise
 ## the inverse will be calculated
 
-
 cacheSolve <- function(x, ...) {
-
-
 
     i <- x$getinverse()
 
@@ -93,5 +67,4 @@ cacheSolve <- function(x, ...) {
     x$setinverse(i)
 
     i
-
 }
