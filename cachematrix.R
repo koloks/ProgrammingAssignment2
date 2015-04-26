@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
         x <<- y
 
         i <<- NULL
+}
 
-    }
     ## resolve or return the above matrix
     
 
